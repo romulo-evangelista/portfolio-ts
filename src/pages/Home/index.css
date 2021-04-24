@@ -1,0 +1,30 @@
+.home {
+  width: 100vw;
+  height: 100vh;
+  background-color: #F8F9F9;
+}
+
+.title-group {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  padding-right: 5rem;
+  font-size: 144px;
+  text-align: right;
+  line-height: 80%;
+  color: var(--primary-color);
+}
+
+.subtitle {
+  font-family: 'Roboto', sans-serif;
+  padding-right: 5rem;
+  font-size: 25px;
+  letter-spacing: 14px;
+  color: var(--primary-color);
+}
