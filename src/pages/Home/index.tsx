@@ -1,16 +1,16 @@
 import React from 'react';
-import { Menu } from '../../components/Menu';
+import { Header } from '../../components/Header';
 
 import './index.css';
 
 export function Home () {
   return (
     <div className="home">
-      <Menu />
+      <Header />
 
       <div className="title-group">
-        <p className="title">Rômulo <br/>Evangelista</p>
-        <span className="subtitle">DESENVOLVEDOR</span>
+        <p className="title">Rômulo Evangelista</p>
+        <span className="subtitle">Desenvolvedor Full Stack</span>
       </div>
     </div>
   );

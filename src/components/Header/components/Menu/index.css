@@ -1,0 +1,11 @@
+.menu-container {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.menu-item {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: var(--primary-color);
+}
